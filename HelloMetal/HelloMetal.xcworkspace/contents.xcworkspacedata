@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:HelloCompute/HelloCompute.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BasicTexturing/BasicTexturing.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HelloTriangle/../BasicBuffers/BasicBuffers.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:HelloTriangle/HelloTriangle.xcodeproj">
    </FileRef>
    <FileRef
