@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		640A687A211B08C7000C71FE /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640A6879211B08C7000C71FE /* Renderer.swift */; };
-		640A687C211B08D7000C71FE /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 640A687B211B08D7000C71FE /* Shader.metal */; };
-		648013D3210FF8E800A833DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648013D2210FF8E800A833DD /* AppDelegate.swift */; };
-		648013D5210FF8E800A833DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648013D4210FF8E800A833DD /* ViewController.swift */; };
-		648013D8210FF8E800A833DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 648013D6210FF8E800A833DD /* Main.storyboard */; };
-		648013DA210FF8E900A833DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648013D9210FF8E900A833DD /* Assets.xcassets */; };
-		648013DD210FF8E900A833DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 648013DB210FF8E900A833DD /* LaunchScreen.storyboard */; };
+		DAB21383211B2B060084E70E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB21382211B2B060084E70E /* AppDelegate.swift */; };
+		DAB21385211B2B060084E70E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB21384211B2B060084E70E /* ViewController.swift */; };
+		DAB21388211B2B060084E70E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB21386211B2B060084E70E /* Main.storyboard */; };
+		DAB2138A211B2B080084E70E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB21389211B2B080084E70E /* Assets.xcassets */; };
+		DAB2138D211B2B080084E70E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB2138B211B2B080084E70E /* LaunchScreen.storyboard */; };
+		DAB2139B211B2CA20084E70E /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB2139A211B2CA20084E70E /* Renderer.swift */; };
+		DAB2139D211B2CB10084E70E /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = DAB2139C211B2CB10084E70E /* Shader.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		640A6879211B08C7000C71FE /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
-		640A687B211B08D7000C71FE /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
-		648013CF210FF8E800A833DD /* Metal01_Triangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metal01_Triangle.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		648013D2210FF8E800A833DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		648013D4210FF8E800A833DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		648013D7210FF8E800A833DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		648013D9210FF8E900A833DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		648013DC210FF8E900A833DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		648013DE210FF8E900A833DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB2137F211B2B060084E70E /* Metal02_meetTexture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metal02_meetTexture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB21382211B2B060084E70E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAB21384211B2B060084E70E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAB21387211B2B060084E70E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAB21389211B2B080084E70E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB2138C211B2B080084E70E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAB2138E211B2B080084E70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB2139A211B2CA20084E70E /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		DAB2139C211B2CB10084E70E /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		648013CC210FF8E800A833DD /* Frameworks */ = {
+		DAB2137C211B2B060084E70E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +39,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		648013C6210FF8E800A833DD = {
+		DAB21376211B2B060084E70E = {
 			isa = PBXGroup;
 			children = (
-				648013D1210FF8E800A833DD /* Metal01_Triangle */,
-				648013D0210FF8E800A833DD /* Products */,
+				DAB21381211B2B060084E70E /* Metal02_meetTexture */,
+				DAB21380211B2B060084E70E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		648013D0210FF8E800A833DD /* Products */ = {
+		DAB21380211B2B060084E70E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				648013CF210FF8E800A833DD /* Metal01_Triangle.app */,
+				DAB2137F211B2B060084E70E /* Metal02_meetTexture.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		648013D1210FF8E800A833DD /* Metal01_Triangle */ = {
+		DAB21381211B2B060084E70E /* Metal02_meetTexture */ = {
 			isa = PBXGroup;
 			children = (
-				648013D2210FF8E800A833DD /* AppDelegate.swift */,
-				648013D4210FF8E800A833DD /* ViewController.swift */,
-				648013D6210FF8E800A833DD /* Main.storyboard */,
-				648013D9210FF8E900A833DD /* Assets.xcassets */,
-				648013DB210FF8E900A833DD /* LaunchScreen.storyboard */,
-				648013DE210FF8E900A833DD /* Info.plist */,
-				640A6879211B08C7000C71FE /* Renderer.swift */,
-				640A687B211B08D7000C71FE /* Shader.metal */,
+				DAB21382211B2B060084E70E /* AppDelegate.swift */,
+				DAB21384211B2B060084E70E /* ViewController.swift */,
+				DAB2139A211B2CA20084E70E /* Renderer.swift */,
+				DAB2139C211B2CB10084E70E /* Shader.metal */,
+				DAB21386211B2B060084E70E /* Main.storyboard */,
+				DAB21389211B2B080084E70E /* Assets.xcassets */,
+				DAB2138B211B2B080084E70E /* LaunchScreen.storyboard */,
+				DAB2138E211B2B080084E70E /* Info.plist */,
 			);
-			path = Metal01_Triangle;
+			path = Metal02_meetTexture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		648013CE210FF8E800A833DD /* Metal01_Triangle */ = {
+		DAB2137E211B2B060084E70E /* Metal02_meetTexture */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 648013E1210FF8E900A833DD /* Build configuration list for PBXNativeTarget "Metal01_Triangle" */;
+			buildConfigurationList = DAB21391211B2B080084E70E /* Build configuration list for PBXNativeTarget "Metal02_meetTexture" */;
 			buildPhases = (
-				648013CB210FF8E800A833DD /* Sources */,
-				648013CC210FF8E800A833DD /* Frameworks */,
-				648013CD210FF8E800A833DD /* Resources */,
+				DAB2137B211B2B060084E70E /* Sources */,
+				DAB2137C211B2B060084E70E /* Frameworks */,
+				DAB2137D211B2B060084E70E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Metal01_Triangle;
-			productName = Metal01_Triangle;
-			productReference = 648013CF210FF8E800A833DD /* Metal01_Triangle.app */;
+			name = Metal02_meetTexture;
+			productName = Metal02_meetTexture;
+			productReference = DAB2137F211B2B060084E70E /* Metal02_meetTexture.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		648013C7210FF8E800A833DD /* Project object */ = {
+		DAB21377211B2B060084E70E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = meitu;
+				ORGANIZATIONNAME = "黄梦轩";
 				TargetAttributes = {
-					648013CE210FF8E800A833DD = {
-						CreatedOnToolsVersion = 9.4;
+					DAB2137E211B2B060084E70E = {
+						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 648013CA210FF8E800A833DD /* Build configuration list for PBXProject "Metal01_Triangle" */;
+			buildConfigurationList = DAB2137A211B2B060084E70E /* Build configuration list for PBXProject "Metal02_meetTexture" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,56 +113,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 648013C6210FF8E800A833DD;
-			productRefGroup = 648013D0210FF8E800A833DD /* Products */;
+			mainGroup = DAB21376211B2B060084E70E;
+			productRefGroup = DAB21380211B2B060084E70E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				648013CE210FF8E800A833DD /* Metal01_Triangle */,
+				DAB2137E211B2B060084E70E /* Metal02_meetTexture */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		648013CD210FF8E800A833DD /* Resources */ = {
+		DAB2137D211B2B060084E70E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				648013DD210FF8E900A833DD /* LaunchScreen.storyboard in Resources */,
-				648013DA210FF8E900A833DD /* Assets.xcassets in Resources */,
-				648013D8210FF8E800A833DD /* Main.storyboard in Resources */,
+				DAB2138D211B2B080084E70E /* LaunchScreen.storyboard in Resources */,
+				DAB2138A211B2B080084E70E /* Assets.xcassets in Resources */,
+				DAB21388211B2B060084E70E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		648013CB210FF8E800A833DD /* Sources */ = {
+		DAB2137B211B2B060084E70E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				640A687C211B08D7000C71FE /* Shader.metal in Sources */,
-				648013D5210FF8E800A833DD /* ViewController.swift in Sources */,
-				640A687A211B08C7000C71FE /* Renderer.swift in Sources */,
-				648013D3210FF8E800A833DD /* AppDelegate.swift in Sources */,
+				DAB2139D211B2CB10084E70E /* Shader.metal in Sources */,
+				DAB21385211B2B060084E70E /* ViewController.swift in Sources */,
+				DAB2139B211B2CA20084E70E /* Renderer.swift in Sources */,
+				DAB21383211B2B060084E70E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		648013D6210FF8E800A833DD /* Main.storyboard */ = {
+		DAB21386211B2B060084E70E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				648013D7210FF8E800A833DD /* Base */,
+				DAB21387211B2B060084E70E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		648013DB210FF8E900A833DD /* LaunchScreen.storyboard */ = {
+		DAB2138B211B2B080084E70E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				648013DC210FF8E900A833DD /* Base */,
+				DAB2138C211B2B080084E70E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +170,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		648013DF210FF8E900A833DD /* Debug */ = {
+		DAB2138F211B2B080084E70E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +230,7 @@
 			};
 			name = Debug;
 		};
-		648013E0210FF8E900A833DD /* Release */ = {
+		DAB21390211B2B080084E70E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -284,13 +284,13 @@
 			};
 			name = Release;
 		};
-		648013E2210FF8E900A833DD /* Debug */ = {
+		DAB21392211B2B080084E70E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q9WZPGLPG5;
-				INFOPLIST_FILE = Metal01_Triangle/Info.plist;
+				INFOPLIST_FILE = Metal02_meetTexture/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,13 +303,13 @@
 			};
 			name = Debug;
 		};
-		648013E3210FF8E900A833DD /* Release */ = {
+		DAB21393211B2B080084E70E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q9WZPGLPG5;
-				INFOPLIST_FILE = Metal01_Triangle/Info.plist;
+				INFOPLIST_FILE = Metal02_meetTexture/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -325,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		648013CA210FF8E800A833DD /* Build configuration list for PBXProject "Metal01_Triangle" */ = {
+		DAB2137A211B2B060084E70E /* Build configuration list for PBXProject "Metal02_meetTexture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				648013DF210FF8E900A833DD /* Debug */,
-				648013E0210FF8E900A833DD /* Release */,
+				DAB2138F211B2B080084E70E /* Debug */,
+				DAB21390211B2B080084E70E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		648013E1210FF8E900A833DD /* Build configuration list for PBXNativeTarget "Metal01_Triangle" */ = {
+		DAB21391211B2B080084E70E /* Build configuration list for PBXNativeTarget "Metal02_meetTexture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				648013E2210FF8E900A833DD /* Debug */,
-				648013E3210FF8E900A833DD /* Release */,
+				DAB21392211B2B080084E70E /* Debug */,
+				DAB21393211B2B080084E70E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 648013C7210FF8E800A833DD /* Project object */;
+	rootObject = DAB21377211B2B060084E70E /* Project object */;
 }

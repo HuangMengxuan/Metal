@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Metal01_Triangle/../Metal02_meetTexture/Metal02_meetTexture.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Metal01_Triangle/Metal01_Triangle.xcodeproj">
    </FileRef>
    <FileRef
