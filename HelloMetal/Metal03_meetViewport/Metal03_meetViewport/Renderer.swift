@@ -40,9 +40,6 @@ class Renderer: NSObject, MTKViewDelegate {
         mtkView.device = self.device
         mtkView.delegate = self
         
-        self.vertexBuffer = self.device.makeBuffer(bytes: vertexData, length: MemoryLayout.size(ofValue: vertexData[0]) * vertexData.count, options: .storageModeShared)
-        self.indexBuffer = self.device.makeBuffer(bytes: indices, length: MemoryLayout.size(ofValue: indices[0]) * indices.count, options: .storageModeShared)
-        
         self.loadMetal(mtkView: mtkView)
     }
     
@@ -72,6 +69,16 @@ class Renderer: NSObject, MTKViewDelegate {
         if texture == nil {
             print("Failed to load the texture.")
         }
+        
+        // 创建顶点缓存
+        vertexBuffer = self.device.makeBuffer(bytes: vertexData, length: MemoryLayout.size(ofValue: vertexData[0]) * vertexData.count, options: .storageModeShared)
+        
+        
+        // 创建索引缓存
+        indexBuffer = self.device.makeBuffer(bytes: indices, length: MemoryLayout.size(ofValue: indices[0]) * indices.count, options: .storageModeShared)
+        
+        // 初始化视口大小
+        viewportSize = [Float(mtkView.drawableSize.width), Float(mtkView.drawableSize.height)]
     }
     
     // MARK: MTKViewDelegate

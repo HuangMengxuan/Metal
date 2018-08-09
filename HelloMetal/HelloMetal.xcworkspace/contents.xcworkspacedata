@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Metal04_Cube/Metal04_Cube.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Metal03_meetViewport/Metal03_meetViewport.xcodeproj">
    </FileRef>
    <FileRef

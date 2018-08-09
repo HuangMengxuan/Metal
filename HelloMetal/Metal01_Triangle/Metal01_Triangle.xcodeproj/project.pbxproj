@@ -60,12 +60,12 @@
 			children = (
 				648013D2210FF8E800A833DD /* AppDelegate.swift */,
 				648013D4210FF8E800A833DD /* ViewController.swift */,
+				640A6879211B08C7000C71FE /* Renderer.swift */,
+				640A687B211B08D7000C71FE /* Shader.metal */,
 				648013D6210FF8E800A833DD /* Main.storyboard */,
 				648013D9210FF8E900A833DD /* Assets.xcassets */,
 				648013DB210FF8E900A833DD /* LaunchScreen.storyboard */,
 				648013DE210FF8E900A833DD /* Info.plist */,
-				640A6879211B08C7000C71FE /* Renderer.swift */,
-				640A687B211B08D7000C71FE /* Shader.metal */,
 			);
 			path = Metal01_Triangle;
 			sourceTree = "<group>";
