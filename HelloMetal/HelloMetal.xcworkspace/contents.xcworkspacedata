@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Metal06_Compute/Metal06_Compute.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Metal05_Matrix/Metal05_Matrix.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Metal04_Cube/Metal04_Cube.xcodeproj">
    </FileRef>
    <FileRef
