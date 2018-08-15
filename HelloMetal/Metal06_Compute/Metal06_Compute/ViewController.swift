@@ -11,6 +11,11 @@ import MetalKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var mtkView: MTKView!
+    @IBOutlet weak var xSwitch: UISwitch!
+    @IBOutlet weak var ySwitch: UISwitch!
+    @IBOutlet weak var zSwitch: UISwitch!
+    
     private var renderer: Renderer? = nil
 
     override func viewDidLoad() {

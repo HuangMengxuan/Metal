@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Metal07_Sphere" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fOS-gc-erv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mtkView contentMode="scaleToFill" colorPixelFormat="BGRA8Unorm" depthStencilPixelFormat="Depth32Float" translatesAutoresizingMaskIntoConstraints="NO" id="qG4-UY-heB">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </mtkView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Qr-gc-pT1">
+                                <rect key="frame" x="10" y="30" width="51" height="31"/>
+                                <connections>
+                                    <action selector="actionXSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="1oD-Wa-7Sl"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hnD-Zb-JAv">
+                                <rect key="frame" x="10" y="112" width="51" height="31"/>
+                                <connections>
+                                    <action selector="actionZSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="ueG-aS-kJI"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="MtR-iN-aS3">
+                                <rect key="frame" x="10" y="71" width="51" height="31"/>
+                                <connections>
+                                    <action selector="actionYSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="unY-Ak-d08"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qG4-UY-heB" firstAttribute="top" secondItem="fNT-8C-QRk" secondAttribute="top" id="CrB-v0-L9l"/>
+                            <constraint firstItem="qG4-UY-heB" firstAttribute="leading" secondItem="fNT-8C-QRk" secondAttribute="leading" id="gcY-mv-vCk"/>
+                            <constraint firstItem="MtR-iN-aS3" firstAttribute="leading" secondItem="4Qr-gc-pT1" secondAttribute="leading" id="krZ-Xp-4vS"/>
+                            <constraint firstItem="fNT-8C-QRk" firstAttribute="trailing" secondItem="qG4-UY-heB" secondAttribute="trailing" id="nP4-UE-JTc"/>
+                            <constraint firstItem="4Qr-gc-pT1" firstAttribute="leading" secondItem="fNT-8C-QRk" secondAttribute="leading" constant="10" id="pWe-C1-OQt"/>
+                            <constraint firstItem="4Qr-gc-pT1" firstAttribute="top" secondItem="fNT-8C-QRk" secondAttribute="top" constant="10" id="quF-Yu-W2S"/>
+                            <constraint firstItem="hnD-Zb-JAv" firstAttribute="top" secondItem="MtR-iN-aS3" secondAttribute="bottom" constant="10" id="uOz-nN-VYr"/>
+                            <constraint firstItem="hnD-Zb-JAv" firstAttribute="leading" secondItem="4Qr-gc-pT1" secondAttribute="leading" id="ukq-FL-AwQ"/>
+                            <constraint firstItem="fNT-8C-QRk" firstAttribute="bottom" secondItem="qG4-UY-heB" secondAttribute="bottom" id="wlR-Gz-j4K"/>
+                            <constraint firstItem="MtR-iN-aS3" firstAttribute="top" secondItem="4Qr-gc-pT1" secondAttribute="bottom" constant="10" id="z0X-0l-eeB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fNT-8C-QRk"/>
+                    </view>
+                    <connections>
+                        <outlet property="mtkView" destination="qG4-UY-heB" id="9C1-gu-O8z"/>
+                        <outlet property="xSwitch" destination="4Qr-gc-pT1" id="GyU-lS-YC9"/>
+                        <outlet property="ySwitch" destination="MtR-iN-aS3" id="STZ-vJ-ePz"/>
+                        <outlet property="zSwitch" destination="hnD-Zb-JAv" id="soQ-g5-egT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Metal07_Sphere/Metal07_Sphere.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Metal06_Compute/Metal06_Compute.xcodeproj">
    </FileRef>
    <FileRef
